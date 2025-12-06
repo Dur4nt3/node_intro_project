@@ -1,0 +1,152 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+}
+
+body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+:root {
+    --fs-sm: clamp(0.8rem, 0.15vi + 0.77rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.31vi + 0.94rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.55vi + 1.14rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.91vi + 1.38rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.43vi + 1.67rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 2.18vi + 2.01rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 3.24vi + 2.4rem, 5rem);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f0f0ff;
+
+    font-family: system-ui, 'Trebuchet MS', 'Segoe UI', Roboto, Helvetica, Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+    height: 100svh;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: var(--fs-xxl);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: var(--fs-md);
+    font-weight: 500;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: 0.5rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 0.35rem;
+}
+
+nav > button {
+    border-radius: 0.35rem;
+    padding: 0.25rem 1rem;
+    font-size: var(--fs-base);
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.in-page {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.in-page > a {
+    cursor: default;
+}
+
+nav > button > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.error-link {
+    color: black
+}
