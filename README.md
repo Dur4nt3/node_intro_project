@@ -21,16 +21,18 @@ To view this project follow the below steps:
 
 1) Clone this repository via `git clone https://github.com/Dur4nt3/node_intro_project.git`
 
-2) Create a `.env` file at the root of the repository
+2) Run `npm install` in the repository's directory
 
-3) Use the `.env.example` file as a basis for your `.env` file
+3) Create a `.env` file at the root of the repository
 
-2) Run `node app.js` within the cloned repository's directory
+4) Use the `.env.example` file as a basis for your `.env` file
 
-3) Open `localhost:8080` within your browser
+5) Run `node app.js` within the cloned repository's directory
+
+6) Open `localhost:8080` within your browser
 
 *Depending on your environment, you may experience some issues.*
-*The above steps were tested on an Ubuntu terminal via WSL and should work with all Unix systems that include the `git` and `node` packages.*
+*The above steps were tested on an Ubuntu terminal via WSL and should work with all Unix systems that include the `git`, `node`, and `npm` packages.*
 
 ## Skills Demonstrated
 
