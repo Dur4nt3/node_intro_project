@@ -13,11 +13,17 @@ Therefore, I've decided not to host this project as I usually do.
 
 If truly want to view this project, please follow the instructions in the "Viewing This Project" section.
 
+**UPDATE 08/12/2025: This project now uses ExpressJS.**
+
 ## Viewing This Project
 
 To view this project follow the below steps:
 
 1) Clone this repository via `git clone https://github.com/Dur4nt3/node_intro_project.git`
+
+2) Create a `.env` file at the root of the repository
+
+3) Use the `.env.example` file as a basis for your `.env` file
 
 2) Run `node app.js` within the cloned repository's directory
 
@@ -28,12 +34,8 @@ To view this project follow the below steps:
 
 ## Skills Demonstrated
 
-- Routing via NodeJS
+- Responding to requests with ExpressJS
 
-- Serving HTML pages via NodeJS
+- Routing with ExpressJS
 
-- Reading files
-
-## Misc Information
-
-This project is accessible and can be viewed on mobile devices.
+- Serving HTML files with ExpressJS

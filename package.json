@@ -1,0 +1,23 @@
+{
+    "name": "node_intro_project",
+    "version": "1.0.0",
+    "description": "Basic Informational Site.",
+    "main": "app.js",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1"
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dur4nt3/node_intro_project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/Dur4nt3/node_intro_project/issues"
+    },
+    "homepage": "https://github.com/Dur4nt3/node_intro_project#readme"
+}
